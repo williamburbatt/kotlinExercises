@@ -1,1 +1,0 @@
-C:\Exercism\kotlin\hamming\src\test\kotlin\HammingTest.kt

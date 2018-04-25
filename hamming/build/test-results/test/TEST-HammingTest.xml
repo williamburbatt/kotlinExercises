@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HammingTest" tests="15" skipped="2" failures="0" errors="0" timestamp="2018-04-25T16:07:46" hostname="DESKTOP-1G9K6DL" time="0.037">
+  <properties/>
+  <testcase name="noDistanceBetweenEmptyStrands" classname="HammingTest" time="0.022"/>
+  <testcase name="validatesSecondStrandNotLonger" classname="HammingTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="smallDistanceInLongStrand" classname="HammingTest" time="0.003"/>
+  <testcase name="sameNucleotidesInDifferentPositions" classname="HammingTest" time="0.001"/>
+  <testcase name="completeDistanceInSingleNucleotideStrand" classname="HammingTest" time="0.0"/>
+  <testcase name="noDistanceBetweenLongIdenticalStrands" classname="HammingTest" time="0.002"/>
+  <testcase name="noDistanceBetweenShortIdenticalStrands" classname="HammingTest" time="0.0"/>
+  <testcase name="smallDistanceInMediumStrand" classname="HammingTest" time="0.0"/>
+  <testcase name="largeDistanceInOffByOneStrand" classname="HammingTest" time="0.001"/>
+  <testcase name="largeDistanceInPermutedStrand" classname="HammingTest" time="0.001"/>
+  <testcase name="validatesFirstStrandNotLonger" classname="HammingTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="completeDistanceInSmallStrand" classname="HammingTest" time="0.001"/>
+  <testcase name="nonUniqueCharacterInFirstStrand" classname="HammingTest" time="0.0"/>
+  <testcase name="smallDistanceInSmallStrand" classname="HammingTest" time="0.0"/>
+  <testcase name="nonUniqueCharacterInSecondStrand" classname="HammingTest" time="0.001"/>
+  <system-out><![CDATA[G
+G
+G
+G
+G
+T
+A
+A
+C
+T
+C
+C
+A
+A
+G
+T
+A
+A
+T
+G
+A
+G
+A
+A
+G
+G
+T
+T
+C
+C
+A
+A
+G
+G
+G
+G
+A
+A
+G
+G
+C
+C
+A
+T
+G
+G
+G
+G
+G
+T
+T
+C
+C
+T
+T
+T
+T
+A
+A
+G
+G
+G
+G
+C
+C
+A
+A
+G
+G
+G
+G
+A
+A
+A
+C
+A
+A
+T
+T
+A
+A
+C
+G
+G
+G
+T
+A
+C
+G
+A
+A
+A
+A
+A
+T
+T
+A
+C
+A
+G
+A
+A
+A
+A
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -4,6 +4,7 @@ import org.junit.Rule
 import org.junit.rules.ExpectedException
 import kotlin.test.assertEquals
 
+
 class HammingTest {
 
     @Rule
@@ -12,79 +13,79 @@ class HammingTest {
 
     @Test
     fun noDistanceBetweenEmptyStrands() {
-        assertEquals(0, Hamming.compute("", ""))
+        assertEquals(0, compute("", ""))
     }
 
-    @Ignore
+    
     @Test
     fun noDistanceBetweenShortIdenticalStrands() {
-        assertEquals(0, Hamming.compute("A", "A"))
+        assertEquals(0, compute("A", "A"))
     }
 
-    @Ignore
+    
     @Test
     fun noDistanceBetweenLongIdenticalStrands() {
-        assertEquals(0, Hamming.compute("GGACTGA", "GGACTGA"))
+        assertEquals(0, compute("GGACTGA", "GGACTGA"))
     }
 
-    @Ignore
+    
     @Test
     fun completeDistanceInSingleNucleotideStrand() {
-        assertEquals(1, Hamming.compute("A", "G"))
+        assertEquals(1, compute("A", "G"))
     }
 
-    @Ignore
+    
     @Test
     fun completeDistanceInSmallStrand() {
-        assertEquals(2, Hamming.compute("AG", "CT"))
+        assertEquals(2, compute("AG", "CT"))
     }
 
-    @Ignore
+    
     @Test
     fun smallDistanceInSmallStrand() {
-        assertEquals(1, Hamming.compute("AT", "CT"))
+        assertEquals(1, compute("AT", "CT"))
     }
 
-    @Ignore
+    
     @Test
     fun smallDistanceInMediumStrand() {
-        assertEquals(1, Hamming.compute("GGACG", "GGTCG"))
+        assertEquals(1, compute("GGACG", "GGTCG"))
     }
 
-    @Ignore
+    
     @Test
     fun smallDistanceInLongStrand() {
-        assertEquals(2, Hamming.compute("ACCAGGG", "ACTATGG"))
+        assertEquals(2, compute("ACCAGGG", "ACTATGG"))
     }
 
-    @Ignore
+    
     @Test
     fun nonUniqueCharacterInFirstStrand() {
-        assertEquals(1, Hamming.compute("AAG", "AAA"))
+        assertEquals(1, compute("AAG", "AAA"))
     }
 
-    @Ignore
+    
     @Test
     fun nonUniqueCharacterInSecondStrand() {
-        assertEquals(1, Hamming.compute("AAA", "AAG"))
+        assertEquals(1, compute("AAA", "AAG"))
     }
 
-    @Ignore
+    
     @Test
     fun sameNucleotidesInDifferentPositions() {
-        assertEquals(2, Hamming.compute("TAG", "GAT"))
+        assertEquals(2, compute("TAG", "GAT"))
     }
 
-    @Ignore
+    
     @Test
     fun largeDistanceInPermutedStrand() {
-        assertEquals(4, Hamming.compute("GATACA", "GCATAA"))
+        assertEquals(4, compute("GATACA", "GCATAA"))
     }
 
-    @Ignore
+    
     @Test
     fun largeDistanceInOffByOneStrand() {
-        assertEquals(9, Hamming.compute("GGACGGATTCTG", "AGGACGGATTCT"))
+        assertEquals(9, compute("GGACGGATTCTG", "AGGACGGATTCT"))
     }
 
     @Ignore
@@ -93,7 +94,7 @@ class HammingTest {
         expectedException.expect(IllegalArgumentException::class.java)
         expectedException.expectMessage("left and right strands must be of equal length.")
 
-        Hamming.compute("AATG", "AAA")
+        compute("AATG", "AAA")
     }
 
     @Ignore
@@ -102,7 +103,7 @@ class HammingTest {
         expectedException.expect(IllegalArgumentException::class.java)
         expectedException.expectMessage("left and right strands must be of equal length.")
 
-        Hamming.compute("ATA", "AGTG")
+        compute("ATA", "AGTG")
     }
 
 }

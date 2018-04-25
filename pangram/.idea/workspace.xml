@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6724441-aea4-4ef6-b05e-8fb35d4e1cf6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/dirty-sources.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/kotlin/pangram.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/Pangram.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hello-world" afterPath="$PROJECT_DIR$/../hello-world" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/kotlin/PangramTest.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/PangramTest.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rna-transcription/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../rna-transcription/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -554,7 +550,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hamming" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -661,7 +657,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524669610410</updated>
-      <workItem from="1524669613714" duration="1163000" />
+      <workItem from="1524669613714" duration="1411000" />
     </task>
     <task id="LOCAL-00001" summary="Added kotlin file">
       <created>1524669728761</created>
@@ -674,7 +670,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1163000" />
+    <option name="totallyTimeSpent" value="1411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
