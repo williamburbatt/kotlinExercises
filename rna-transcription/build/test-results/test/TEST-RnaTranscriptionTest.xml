@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RnaTranscriptionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-04-25T15:16:11" hostname="DESKTOP-1G9K6DL" time="0.011">
+<testsuite name="RnaTranscriptionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-04-25T17:14:56" hostname="DESKTOP-1G9K6DL" time="0.01">
   <properties/>
-  <testcase name="thymineComplementIsAdenine" classname="RnaTranscriptionTest" time="0.01"/>
+  <testcase name="thymineComplementIsAdenine" classname="RnaTranscriptionTest" time="0.008"/>
   <testcase name="adenineComplementIsUracil" classname="RnaTranscriptionTest" time="0.0"/>
-  <testcase name="rnaTranscription" classname="RnaTranscriptionTest" time="0.001"/>
-  <testcase name="guanineComplementIsCytosine" classname="RnaTranscriptionTest" time="0.0"/>
+  <testcase name="rnaTranscription" classname="RnaTranscriptionTest" time="0.0"/>
+  <testcase name="guanineComplementIsCytosine" classname="RnaTranscriptionTest" time="0.001"/>
   <testcase name="cytosineComplementIsGuanine" classname="RnaTranscriptionTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
